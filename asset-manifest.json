@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gems-api-call-ReactJS/static/css/main.bc96e545.chunk.css",
+    "main.js": "/gems-api-call-ReactJS/static/js/main.3c205e66.chunk.js",
+    "main.js.map": "/gems-api-call-ReactJS/static/js/main.3c205e66.chunk.js.map",
+    "runtime-main.js": "/gems-api-call-ReactJS/static/js/runtime-main.1fa6544b.js",
+    "runtime-main.js.map": "/gems-api-call-ReactJS/static/js/runtime-main.1fa6544b.js.map",
+    "static/js/2.48d66d63.chunk.js": "/gems-api-call-ReactJS/static/js/2.48d66d63.chunk.js",
+    "static/js/2.48d66d63.chunk.js.map": "/gems-api-call-ReactJS/static/js/2.48d66d63.chunk.js.map",
+    "static/js/3.97ea94df.chunk.js": "/gems-api-call-ReactJS/static/js/3.97ea94df.chunk.js",
+    "static/js/3.97ea94df.chunk.js.map": "/gems-api-call-ReactJS/static/js/3.97ea94df.chunk.js.map",
+    "index.html": "/gems-api-call-ReactJS/index.html",
+    "static/css/main.bc96e545.chunk.css.map": "/gems-api-call-ReactJS/static/css/main.bc96e545.chunk.css.map",
+    "static/js/2.48d66d63.chunk.js.LICENSE.txt": "/gems-api-call-ReactJS/static/js/2.48d66d63.chunk.js.LICENSE.txt",
+    "static/media/astech_logo_white.4f5b2fe9.gif": "/gems-api-call-ReactJS/static/media/astech_logo_white.4f5b2fe9.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fa6544b.js",
+    "static/js/2.48d66d63.chunk.js",
+    "static/css/main.bc96e545.chunk.css",
+    "static/js/main.3c205e66.chunk.js"
+  ]
+}
