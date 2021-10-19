@@ -1,0 +1,24 @@
+.header{
+    display:flex;
+    background: linear-gradient(90deg, rgb(111, 177, 218), white);
+    
+}
+
+.astech__logo {
+    height: 60px;
+    padding: 10px;
+}
+
+.gems__logo{
+    margin-left: 20px;
+    color: white;
+    margin-top: 12px;
+}
+
+.client__logo{
+    width: 85px;
+    height: 55px;
+    display: block;
+    margin-left: auto;
+}
+

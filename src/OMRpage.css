@@ -1,0 +1,34 @@
+.OMRpage {
+    padding: 35px;
+    margin-top: -15px !important;
+}
+
+.header__OMRpage{
+    color: rgb(25, 25, 82);
+    margin-bottom: 20px;
+}
+
+.firstparagraph__OMRpage {
+    padding: 30px;
+    width: 97%;
+    height: 20%;
+    border: 1px solid #000;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.secondparagraph__OMRpage {
+    margin-top: 20px;
+    padding: 10px;
+    width: 97%;
+    height: 20%;
+    border: 1px solid #000;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.importfile__OMRpage {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+

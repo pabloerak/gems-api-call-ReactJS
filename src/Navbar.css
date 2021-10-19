@@ -1,0 +1,276 @@
+.BiMenu__nav{
+    display:none;
+}
+
+.navbar1{
+    display:block; 
+}
+
+.navbar2{
+    display:none;
+}
+
+.nav-menu {
+    display:none;
+}
+
+
+.horizontal {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(rgb(226, 223, 223), rgb(197, 193, 193), rgb(226, 223, 223));
+    color: rgb(66, 65, 65);
+    font-weight: 550;
+    margin: 0;
+}
+
+.horizontal > li{
+    position: relative;
+    display: inline-block;
+    padding: 5px;   
+}
+
+.submenu {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0; 
+}
+
+.submodule_1:hover {
+    background: linear-gradient(rgb(250, 249, 249), rgb(221, 217, 217), rgb(250, 249, 249));
+}
+.submodule_2:hover {
+    background: linear-gradient(rgb(250, 249, 249), rgb(221, 217, 217), rgb(250, 249, 249));
+}
+.submodule_3:hover {
+    background: linear-gradient(rgb(250, 249, 249), rgb(221, 217, 217), rgb(250, 249, 249));
+}
+.submodule_4:hover {
+    background: linear-gradient(rgb(250, 249, 249), rgb(221, 217, 217), rgb(250, 249, 249));
+}
+.submodule_5:hover {
+    background: linear-gradient(rgb(250, 249, 249), rgb(221, 217, 217), rgb(250, 249, 249));
+}
+.submodule_6:hover {
+    background: linear-gradient(rgb(250, 249, 249), rgb(221, 217, 217), rgb(250, 249, 249));
+}
+
+
+.submodule_1 li:hover {
+    background: linear-gradient(rgb(250, 249, 249), rgb(221, 217, 217), rgb(250, 249, 249));
+}
+.submodule_2 li:hover {
+    background: linear-gradient(rgb(250, 249, 249), rgb(221, 217, 217), rgb(250, 249, 249));
+}
+.submodule_3 li:hover {
+    background: linear-gradient(rgb(250, 249, 249), rgb(221, 217, 217), rgb(250, 249, 249));
+}
+.submodule_4 li:hover {
+    background: linear-gradient(rgb(250, 249, 249), rgb(221, 217, 217), rgb(250, 249, 249));
+}
+.submodule_5 li:hover {
+    background: linear-gradient(rgb(250, 249, 249), rgb(221, 217, 217), rgb(250, 249, 249));
+}
+.submodule_6 li:hover {
+    background: linear-gradient(rgb(250, 249, 249), rgb(221, 217, 217), rgb(250, 249, 249));
+}
+
+.submodule__1 {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;    
+}
+
+.horizontal li:hover .submodule__1{
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 1;
+    width: 145px;
+    background: linear-gradient(lightgray, rgb(185, 171, 171), lightgray);
+    padding:7px;
+    border: solid rgb(134, 132, 131);
+}
+
+.submodule__2 {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;    
+}
+
+.horizontal li:hover .submodule__2{
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 1;
+    width: 210px;
+    background: linear-gradient(lightgray, rgb(185, 171, 171), lightgray);
+    padding:7px;
+    border: solid rgb(134, 132, 131);
+}
+
+.submodule__3 {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;    
+}
+
+.horizontal li:hover .submodule__3{
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 1;
+    width: 210px;
+    background: linear-gradient(lightgray, rgb(185, 171, 171), lightgray);
+    padding:7px;
+    border: solid rgb(134, 132, 131);
+}
+
+.submodule__4 {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0; 
+    white-space: wrap;  
+}
+
+.horizontal li:hover .submodule__4{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 1;
+    width: 370px;
+    background: linear-gradient(lightgray, rgb(185, 171, 171), lightgray);
+    padding:7px;
+    border: solid rgb(134, 132, 131);
+}
+
+.submodule__5 {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;    
+}
+
+.horizontal li:hover .submodule__5{
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 1;
+    width: 180px;
+    background: linear-gradient(lightgray, rgb(185, 171, 171), lightgray);
+    padding:7px;
+    border: solid rgb(134, 132, 131);
+}
+
+.submodule__6 {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;    
+}
+
+.horizontal li:hover .submodule__6{
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 1;
+    width: 120px;
+    background: linear-gradient(lightgray, rgb(185, 171, 171), lightgray);
+    padding:7px;
+    border: solid rgb(134, 132, 131);
+}
+
+nav.menu_horizontal li {
+    display: inline-block;
+    color:rgb(50, 53, 51);
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    .navbar1{
+        display:none; 
+    }
+
+    .navbar2 {
+        display: block;
+        background-color: #060b26;
+        height: 55px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .menu-bars {
+        margin-left: 2rem;
+        font-size: 2rem;
+        background: none;
+    }
+    
+    .nav-menu {
+        background-color: #060b26;
+        width: 250px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        transition: 850ms;
+    }
+    
+    .nav-menu.active {
+        left: 0;
+        transition: 350ms;
+    }
+    
+    .nav-text {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 8px 0px 8px 16px;
+        list-style: none;
+        height: 60px;
+    }
+    
+    .nav-text a {
+        text-decoration: none;
+        color: #f5f5f5;
+        font-size: 18px;
+        width: 95%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        border-radius: 4px;
+    }
+    
+    .nav-text a:hover {
+        background-color: #1a83ff;
+    }
+    
+    .nav-menu-items {
+        width: 100%;
+    }
+    
+    .navbar-toggle {
+        background-color: #060b26;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    span {
+        margin-left: 16px;
+    }
+    .BiMenu__nav{
+        display: block;
+    }
+    
+}
